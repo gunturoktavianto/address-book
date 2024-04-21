@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Address Book</title>
+    </head>
+    <body>
+        <h1>Address Book</h1>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+        </ul>
+        <form>
+            <label for="search">Enter keyword...</label>
+            <input type="text" id="search" name="search" placeholder="Search" />
+            <button type="submit">Search</button>
+        </form>
+        <hr />
+        <form>
+            <h2>Contact Details</h2>
+            <label for="name">Full name:</label>
+            <input type="text" id="name" name="name" placeholder="Budi" />
+            <label for="email">Email address:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@domain.com"
+            />
+            <label for="phone">Phone number:</label>
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+628123456789"
+            />
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="17" />
+            <button type="submit">Save Contact</button>
+        </form>
+
+        <div id="contact-listt"></div>
+    </body>
+</html>
